@@ -14,9 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="overflow-hidden bg-black p-1 py-4 font-grotesk sm:px-3">
         <Header />
-        {children}
+        <div className="rounded-2xl bg-white px-5 py-6">{children}</div>
         <Footer />
       </body>
     </html>
