@@ -9,7 +9,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: { colors: { prim: "red", light: "white", dark: "black" } },
     fontFamily: {
       mono: "Space Mono",
       grotesk: "Space Grotesk",
